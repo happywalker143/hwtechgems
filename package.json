@@ -1,0 +1,23 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsdom": "^26.1.0",
+    "mongoose": "^8.9.6"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}

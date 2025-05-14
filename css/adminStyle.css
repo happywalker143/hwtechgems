@@ -1,0 +1,106 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Message Panel */
+#messagePanel {
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* Table Styling */
+.messageTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.messageTable th, .messageTable td {
+  text-align: left;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.messageTable th {
+  background-color: #6c63ff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.messageTable td {
+  background-color: #f9f9f9;
+}
+
+/* Table Row Hover Effect */
+.messageTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+  #messagePanel {
+    padding: 15px;
+  }
+
+  .messageTable {
+    font-size: 14px;
+  }
+
+  .messageTable th, .messageTable td {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  .messageTable {
+    font-size: 12px;
+  }
+
+  .messageTable th, .messageTable td {
+    padding: 8px;
+  }
+
+  #messagePanel {
+    padding: 10px;
+  }
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.delete-btn{
+  background: violet;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
