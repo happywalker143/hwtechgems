@@ -19,7 +19,7 @@ body{
     --btn-bg:tomato;
     --btn-hover:orange;
     --btn-bg:tomato;
-    --gradient:linear-gradient(#e83e8c 0%,#6610f2 100%);
+    --gradient:linear-gradient(#e83e8c 0%,#6610f2 100%,violet );
     --gradient-1: linear-gradient(hotpink,violet);
 }
 
@@ -34,15 +34,15 @@ h1{
 .logo
 {
  display: flex;
+ justify-content: center;
 }
 .logo img
 {
- height:60px;
- width:60px;
+ height: 150px;
+ width: 150px;
  margin-block-start:2px;
  border-radius:50%;
  border: 2px solid violet;
- 
 }
 
 .comman-heading p
@@ -194,7 +194,7 @@ align-items: center;
 /*heder section start*/
 .header
 { 
-    height:100vh;
+    height:max-content;
      background-image:url('../images/bg.jpg');
     background-size: cover;
     background-repeat:no-repeat;
@@ -203,11 +203,7 @@ align-items: center;
     position: sticky;
  
 }
-  svg{
-    bottom: 0;
-    z-index: 1;
-    position: absolute;
-  }
+  
 .header::before
 {
     content: "";
