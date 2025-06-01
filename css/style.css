@@ -43,6 +43,7 @@ h1{
  margin-block-start:2px;
  border-radius:50%;
  border: 2px solid violet;
+ backdrop-filter:grayscale(rem(12, 10));
 }
 
 .comman-heading p
